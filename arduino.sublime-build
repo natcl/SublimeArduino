@@ -9,6 +9,11 @@
 		  "working_dir": "$file_path",
 		  "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
 		  "name": "Run"
+		},
+		{ "cmd": ["osascript", "/Users/Nat/Dropbox/Scripts/ArduinoMonitor.scpt"],
+		  "working_dir": "$file_path",
+		  "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+		  "name": "Arduino Monitor"
 		}
 	]
 }
