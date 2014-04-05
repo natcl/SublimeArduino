@@ -1,3 +1,3 @@
 tell application "System Events" to tell process "Arduino"
-	click menu item "Téléverser" of menu 1 of menu bar item "Fichier" of menu bar 1
+	click menu item "Vérifier / Compiler" of menu 1 of menu bar item "Croquis" of menu bar 1
 end tell
