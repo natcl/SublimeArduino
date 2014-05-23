@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+void setup()
+{
+  ${1}  
+}
+
+void loop()
+{
+  ${2}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>setuploop</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>source.c++.arduino</scope> -->
+</snippet>
