@@ -8,12 +8,12 @@
 		{ "cmd": ["/bin/sh", "ArduinoUpload.sh", "$file"],
 		  "working_dir": "$packages/Arduino/scripts",
 		  "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
-		  "name": "Run"
+		  "name": "Upload"
 		},
 		{ "cmd": ["/bin/sh", "ArduinoMonitor.sh", "$file"],
 		  "working_dir": "$packages/Arduino/scripts",
 		  "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
-		  "name": "Arduino Monitor"
+		  "name": "Monitor"
 		}
 	]
 }
